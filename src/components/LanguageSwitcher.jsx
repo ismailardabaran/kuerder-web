@@ -3,10 +3,14 @@ import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
-  const isTR = i18n.language === 'tr';
+  
+  // Use startsWith to handle codes like 'tr-TR' or 'en-US'
+  const currentLang = i18n.language || 'tr';
+  const isTR = currentLang.startsWith('tr');
 
   const toggleLanguage = () => {
-    i18n.changeLanguage(isTR ? 'en' : 'tr');
+    const nextLang = isTR ? 'en' : 'tr';
+    i18n.changeLanguage(nextLang);
   };
 
   return (
