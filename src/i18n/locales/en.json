@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "news": "News",
+    "projects": "Projects",
+    "contact": "Contact",
+    "social": {
+      "instagram": "Instagram"
+    }
+  },
+  "hero": {
+    "badge": "Erasmus+ Partner Organization",
+    "title_main": "Colors of",
+    "title_sub": "Kuşadası Education Association",
+    "quote": "It is education that either keeps a nation living as a free, independent, glorious, high society; or leaves it to captivity and misery.",
+    "quote_author": "Mustafa Kemal Ataturk",
+    "description": "We are building innovative educational bridges between Turkey and Europe. Through our Erasmus+ projects, we bring together youth, educators, and institutions with international opportunities; overcoming the biggest obstacles to development and coloring the future together.",
+    "cta_projects": "Review Our Projects",
+    "cta_join": "Join Us"
+  },
+  "stats": {
+    "projects": "Erasmus+ Projects",
+    "participants": "Participants and Volunteers",
+    "partners": "International Partnerships"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "team_title": "Our Board of Directors",
+    "cta": "Join Us",
+    "roles": {
+      "president": "Chairman of the Board",
+      "coordinator": "Project Coordinator",
+      "education": "Education Officer",
+      "relations": "International Relations"
+    }
+  },
+  "projects": {
+    "title": "Our Projects",
+    "categories": {
+      "all": "All",
+      "ka1": "KA1 Projects",
+      "ka2": "KA2 Projects",
+      "local": "Local Projects"
+    },
+    "modal": {
+      "close": "Close",
+      "visit_website": "Visit Project Website"
+    }
+  },
+  "map": {
+    "title_main": "Drawing the Routes",
+    "title_highlight": "Together",
+    "title_sub": "of the Future",
+    "countries": {
+      "TR": "Turkey",
+      "IT": "Italy",
+      "ES": "Spain",
+      "RO": "Romania",
+      "GR": "Greece",
+      "HU": "Hungary",
+      "HR": "Croatia",
+      "BG": "Bulgaria",
+      "PT": "Portugal",
+      "PL": "Poland"
+    }
+  },
+  "news": {
+    "title": "News & Announcements",
+    "subtitle": "Latest news, event announcements and project developments from our association.",
+    "categories": {
+      "all": "All",
+      "news": "News",
+      "announcement": "Announcements",
+      "event": "Events"
+    },
+    "cta_more": "See More",
+    "modal": {
+      "placeholder": "The rest of the news will be here...",
+      "close": "Close"
+    },
+    "view_on_instagram": "View on Instagram"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "You can contact us for your questions, opinions or collaboration requests.",
+    "info": {
+      "address_title": "Address",
+      "address_value": "Kuşadası, Aydın, Turkey",
+      "email": "Email",
+      "phone": "Phone",
+      "social": "Social Media"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send"
+    }
+  }
+}

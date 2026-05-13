@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "news": "Haberler",
+    "projects": "Projeler",
+    "contact": "İletişim",
+    "social": {
+      "instagram": "Instagram"
+    }
+  },
+  "hero": {
+    "badge": "Erasmus+ Partner Kuruluşu",
+    "title_main": "Kuşadası Eğitimin",
+    "title_sub": "Renkleri Derneği",
+    "quote": "Eğitimdir ki, bir milleti ya özgür, bağımsız, şanlı, yüksek bir topluluk halinde yaşatır; ya da esaret ve sefalete terk eder.",
+    "quote_author": "Mustafa Kemal Atatürk",
+    "description": "Türkiye ile Avrupa arasında yenilikçi eğitim köprüleri inşa ediyoruz. Erasmus+ projelerimizle gençleri, eğitimcileri ve kurumları uluslararası fırsatlarla buluşturuyor; gelişimin önündeki en büyük engelleri aşarak geleceği birlikte renklendiriyoruz.",
+    "cta_projects": "Projelerimizi İnceleyin",
+    "cta_join": "Bize Katılın"
+  },
+  "stats": {
+    "projects": "Erasmus+ Projesi",
+    "participants": "Katılımcı ve Gönüllü",
+    "partners": "Uluslararası Ortaklık"
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "team_title": "Yönetim Kurulumuz",
+    "cta": "Aramıza Katıl",
+    "roles": {
+      "president": "Yönetim Kurulu Başkanı",
+      "coordinator": "Proje Koordinatörü",
+      "education": "Eğitim Sorumlusu",
+      "relations": "Uluslararası İlişkiler"
+    }
+  },
+  "projects": {
+    "title": "Projelerimiz",
+    "categories": {
+      "all": "Tümü",
+      "ka1": "KA1 Projeleri",
+      "ka2": "KA2 Projeleri",
+      "local": "Yerel Projeler"
+    },
+    "modal": {
+      "close": "Kapat",
+      "visit_website": "Projenin Web Sitesini Ziyaret Et"
+    }
+  },
+  "map": {
+    "title_main": "Geleceğin Rotalarını",
+    "title_highlight": "Birlikte",
+    "title_sub": "Çiziyoruz",
+    "countries": {
+      "TR": "Türkiye",
+      "IT": "İtalya",
+      "ES": "İspanya",
+      "RO": "Romanya",
+      "GR": "Yunanistan",
+      "HU": "Macaristan",
+      "HR": "Hırvatistan",
+      "BG": "Bulgaristan",
+      "PT": "Portekiz",
+      "PL": "Polonya"
+    }
+  },
+  "news": {
+    "title": "Haberler & Duyurular",
+    "subtitle": "Derneğimizden en güncel haberler, etkinlik duyuruları ve proje gelişmeleri.",
+    "categories": {
+      "all": "Tümü",
+      "news": "Haberler",
+      "announcement": "Duyurular",
+      "event": "Etkinlikler"
+    },
+    "cta_more": "Daha Fazlasını Gör",
+    "modal": {
+      "placeholder": "Haberin devamı burada yer alacak...",
+      "close": "Kapat"
+    },
+    "view_on_instagram": "Instagram'da Gör"
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Sorularınız, görüşleriniz veya iş birliği talepleriniz için bizimle iletişime geçebilirsiniz.",
+    "info": {
+      "address_title": "Adres",
+      "address_value": "Kuşadası, Aydın, Türkiye",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "social": "Sosyal Medya"
+    },
+    "form": {
+      "title": "Bize Mesaj Gönderin",
+      "name": "Ad Soyad",
+      "email": "E-posta Adresi",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "submit": "Gönder"
+    }
+  }
+}
