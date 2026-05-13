@@ -7,7 +7,7 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-between pt-32 pb-12 overflow-hidden bg-transparent">
+    <section id="hero-section" className="relative min-h-screen flex flex-col justify-between pt-32 pb-12 overflow-hidden bg-transparent">
       {/* Background abstract shapes for depth */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-40">
         <div className="absolute top-[-10%] right-[-5%] w-96 h-96 bg-terracotta/10 rounded-full blur-3xl" />

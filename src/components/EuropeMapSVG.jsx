@@ -15,7 +15,7 @@ const projection = geoAzimuthalEqualArea()
   .rotate([-15.0, -48.0, 0])
   .center([0, 0])
   .scale(1100)
-  .translate([400, 300]); 
+  .translate([400, 300]);
 
 const getArcPath = (start, end, index, bendDirection = 1) => {
   const [x1, y1] = projection(start);
@@ -23,15 +23,15 @@ const getArcPath = (start, end, index, bendDirection = 1) => {
   const dx = x2 - x1;
   const dy = y2 - y1;
   const dist = Math.sqrt(dx * dx + dy * dy);
-  
+
   // Normal vector to the line
   const nx = -dy / dist;
   const ny = dx / dist;
-  
+
   // Bend multiplier controlled by bendDirection
   const bend = dist * (0.15 + (index % 3) * 0.05) * bendDirection;
-  
-  const cx = x1 + dx / 2 + nx * bend; 
+
+  const cx = x1 + dx / 2 + nx * bend;
   const cy = y1 + dy / 2 + ny * bend;
   return `M ${x1} ${y1} Q ${cx} ${cy} ${x2} ${y2}`;
 };
@@ -68,9 +68,9 @@ const EuropeMapSVG = ({ scrollProgress }) => {
 
   return (
     <div className="w-full h-full flex items-center justify-center relative bg-transparent overflow-hidden">
-      
+
       <div className="w-full max-w-6xl h-auto relative z-10 bg-transparent">
-        
+
         <ComposableMap
           projection="geoAzimuthalEqualArea"
           projectionConfig={{
@@ -85,7 +85,7 @@ const EuropeMapSVG = ({ scrollProgress }) => {
               <stop offset="65%" stopColor="white" />
               <stop offset="100%" stopColor="black" />
             </radialGradient>
-            
+
             <linearGradient id="mask-right-fade" x1="0" y1="0" x2="1" y2="0">
               <stop offset="65%" stopColor="white" stopOpacity="0" />
               <stop offset="100%" stopColor="black" stopOpacity="1" />
@@ -134,7 +134,7 @@ const EuropeMapSVG = ({ scrollProgress }) => {
               className="path-animated-arc"
             />
           ))}
-          
+
           {/* Nodes */}
           {nodes.map((node) => (
             <Marker key={node.id} coordinates={node.coordinates} className="group cursor-pointer">
@@ -183,7 +183,7 @@ const MotionArcController = ({ progress, lines }) => {
       const { start, end } = line;
       let localProgress = (v - start) / (end - start);
       localProgress = Math.max(0, Math.min(1, localProgress));
-      
+
       const length = path.getTotalLength();
       path.style.strokeDasharray = length;
       path.style.strokeDashoffset = length - (localProgress * length);
