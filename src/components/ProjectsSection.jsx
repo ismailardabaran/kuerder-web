@@ -157,10 +157,10 @@ const ProjectsSection = () => {
   return (
     <section id="projelerimiz" className="bg-transparent py-24 md:py-32 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
-        
+
         {/* Header & Filters */}
         <div className="flex flex-col items-center mb-16 text-center">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -171,7 +171,7 @@ const ProjectsSection = () => {
             </h2>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -182,11 +182,10 @@ const ProjectsSection = () => {
               <button
                 key={category}
                 onClick={() => handleFilterChange(category)}
-                className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                  activeFilter === category 
-                    ? 'bg-charcoal text-cream shadow-md' 
+                className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${activeFilter === category
+                    ? 'bg-charcoal text-cream shadow-md'
                     : 'bg-charcoal/5 text-charcoal hover:bg-charcoal/10'
-                }`}
+                  }`}
               >
                 {t(`projects.categories.${category}`)}
               </button>
@@ -238,7 +237,7 @@ const ProjectsSection = () => {
       {/* Modal / Popup */}
       <AnimatePresence>
         {selectedProject && (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, backdropFilter: "blur(0px)" }}
             animate={{ opacity: 1, backdropFilter: "blur(8px)" }}
             exit={{ opacity: 0, backdropFilter: "blur(0px)" }}
@@ -247,7 +246,7 @@ const ProjectsSection = () => {
             onClick={() => setSelectedProject(null)}
           >
             {/* Modal Content */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.95, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
@@ -256,7 +255,7 @@ const ProjectsSection = () => {
               onClick={(e) => e.stopPropagation()}
             >
               {/* Close Button */}
-              <button 
+              <button
                 onClick={() => setSelectedProject(null)}
                 className="absolute top-4 right-4 sm:top-6 sm:right-6 w-10 h-10 bg-charcoal/5 hover:bg-charcoal/10 rounded-full flex items-center justify-center text-charcoal transition-colors z-10"
                 aria-label={t('projects.modal.close')}
@@ -268,12 +267,12 @@ const ProjectsSection = () => {
 
               {/* Scrollable Content */}
               <div className="p-8 sm:p-12 overflow-y-auto hide-scrollbar flex flex-col items-center text-center">
-                
+
                 {/* Modal Logo */}
                 <div className="w-32 h-32 rounded-full overflow-hidden mb-6 shadow-md ring-4 ring-white">
-                  <img 
-                    src={selectedProject.logo} 
-                    alt={selectedProject.title[getLang()]} 
+                  <img
+                    src={selectedProject.logo}
+                    alt={selectedProject.title[getLang()]}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -292,7 +291,7 @@ const ProjectsSection = () => {
                 </div>
 
                 {/* Primary Button */}
-                <a 
+                <a
                   href="https://www.kukset.org/en"
                   target="_blank"
                   rel="noopener noreferrer"

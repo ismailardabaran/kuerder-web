@@ -44,7 +44,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section id="hakkimizda" className="bg-transparent py-24 md:py-32 relative overflow-hidden">
+    <section id="hakkimizda" className="bg-transparent py-12 md:py-32 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
 
         {/* Block 1: Intro Text */}
